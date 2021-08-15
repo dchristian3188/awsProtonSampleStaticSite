@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "install commands here"
+  build:
+    commands:
+      - echo "build commands here"
+artifacts:
+  files:
+    - '*'
